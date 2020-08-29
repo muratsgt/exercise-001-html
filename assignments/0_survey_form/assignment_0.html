@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clarusway Survey Form</title>
+    <link rel="stylesheet" href="assigment_0.css">
+</head>
+
+<body>
+    <form action="https://www.clarusway.com" method="POST">
+        <h1>Clarusway Survey Form</h1>
+        <p>Thank you for taking time to help us improve the platform</p>
+        <small>Name</small> <br>
+        <input type="text" name="name" placeholder="Enter your name"> <br>
+        <small>Surname</small> <br>
+        <input type="text" name="surname" placeholder="Enter your surname"> <br>
+        <small>Email</small> <br>
+        <input type="text" name="email" placeholder="Enter your email"> <br>
+
+        <p>Which option best describes your current role?</p>
+        <select name="role">
+            <option value="default" selected>Select your current role</option>
+            <option value="Developer">Developer</option>
+            <option value="Engineer">Engineer</option>
+            <option value="Traveller">Traveller</option>
+        </select>
+
+        <p> Would you recommend Clarusway to a friend?</p>
+        <input type="radio" name="recommend"> Definitely, Yes <br>
+        <input type="radio" name="recommend"> Maybe <br>
+        <input type="radio" name="recommend"> Not Sure <br>
+        <input type="radio" name="recommend"> Definitely, No <br>
+
+        <p>What is your favorite feature of Clarusway?</p>
+        <select name="feature" id="">
+            <option value="default" selected>Select an option</option>
+            <option value="Lessons">Lessons</option>
+            <option value="Teachers">Teachers</option>
+            <option value="Accesibility">Accesibility</option>
+        </select>
+
+        <p>What would you like to see improved? (Check all that apply)</p>
+        <input type="checkbox" name="improved" id=""> Front-End Projects <br>
+        <input type="checkbox" name="improved" id=""> Back-End Projects <br>
+        <input type="checkbox" name="improved" id=""> Data Science <br>
+        <input type="checkbox" name="improved" id=""> Additional Courses <br>
+
+        <p>Any comments or suggestions?</p>
+        <textarea name="suggestions" id="" cols="30" rows="5"
+            placeholder="Enter your comments here... Thanks for your answer."></textarea> <br> <br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>
